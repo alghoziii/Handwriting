@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authbot</title>
+    <meta name="description" content="Binggung Cari Bot? Ya Disini Aja. NBot Hadir Untuk Membantu Anda">
+    <link href='asset/img/apple-touch-icon.png' rel='apple-touch-icon' type='image/png'>
+    <link href='asset/img/apple-touch-icon.png' rel='apple-touch-startup-image'>
+    <link rel="shortcut icon" href="asset/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bulmasss.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="css/stylees.css">
+    <link rel="stylesheet" href="css/stylingsse.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script>
+        if (window.history.replaceState) {
+            window.history.replaceState(null, null, window.location.href);
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa:wght@300&family=Cookie&family=Gloria+Hallelujah&family=Macondo&family=Pacifico&family=Patrick+Hand&family=Sacramento&display=swap');
+
+        @font-face {
+            font-family: rici;
+            src: url(asset/font/rici-regularss1.ttf);
+        }
+
+        @font-face {
+            font-family: amal;
+            src: url(asset/font/amal-regularss3.ttf);
+        }
+
+
+        * {
+            font-family: 'gaegu', cursive;
+        }
+
+        .is-sticky-top {
+            top: 0;
+            position: sticky;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        .h-full-mid {
+            height: 92vh !important;
+        }
+
+        .my-auto-mid {
+            margin-top: 25vh !important;
+            margin-bottom: 50vh !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d-none">
+        <!-- Start Navbar -->
+        <nav class="navbar is-sticky-top is-link notranslate" role="navigation" aria-label="main navigation">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item has-text-weight-bold is-size-4" href="#">
+                        AuthBot
+                    </a>
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-end">
+                        <div class="navbar-item">
+                            <div class="buttons">
+                                <a class="button is-link has-text-white has-text-weight-bold">
+                                    <i>Premium Access</i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+
+
+        <!-- section -->
+        <section class="hero is-link h-full-mid">
+            <div class="my-auto-mid">
+                <div class="column is-5 mx-auto has-text-centered">
+                    <h1 class="title" style="font-size:4rem;">
+                        Binggung Cari Bot? Ya Disini Aja
+                    </h1>
+                    <p class="subtitle is-size-3">
+                        <strong>Auth</strong> Hadir Untuk Membantu Anda!
+                    </p>
+                    <div class="columns is-centered">
+                        <div class="column is-3">
+                            <a href="login.php" class="button has-text-link w-full has-text-weight-bold is-active">Mulai</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section -->
+    </div>
+
+
+    <!-- <div class="d-block">
+        <section class="hero is-link h-full">
+            <div class="my-auto">
+                <div class="column is-6 mx-auto has-text-centered">
+                    <h1 class="title" style="font-size:4rem;padding:0 5rem;">
+                        Buka Dari Laptop Atau Pc Anda
+                    </h1>
+                </div>
+            </div>
+        </section>
+    </div> -->
+    <script src="asset/js/main.js"></script>
+    <script src="asset/js/bulma.js"></script>
+</body>
+
+
+</html>
